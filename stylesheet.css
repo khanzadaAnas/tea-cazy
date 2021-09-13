@@ -41,7 +41,7 @@ body a {
     width: 300px;
 }
 .menu{
-    margin: 11px 30px;
+    margin: 11px 15px;
 }
 .menu-row{
     justify-content: center;
@@ -99,12 +99,11 @@ footer h6{
     align-items: center;
 }
 
-
 @media (max-width: 1399.98px) { 
     .sm-display {
         display: none;
     }
-      .mobile{
+    .mobile{
         display: none;
     }
  }
@@ -165,8 +164,8 @@ footer h6 {margin: 0;}
 }
 .handpick {
     background-color: #0000000f;}
-     
-     .mobile{
+
+    .mobile{
         display: flex;
     }
     .tea-cozy{
