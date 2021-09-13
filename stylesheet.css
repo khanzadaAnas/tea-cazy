@@ -1,0 +1,157 @@
+nav{
+    text-decoration: underline;
+    border-bottom: 1px solid seashell;
+}
+.our-mission{
+    background-image: url(./images/img-mission-background.jpg);
+        height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.sm-display ul{
+    background-color: black;
+}
+
+body{
+    background-color:black ;
+    color: white;
+}
+
+body a {
+    color: white !important;
+}
+.handpick{
+    background-color: black;
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.month{
+    text-align: center;
+    padding: 100px 0px;
+}
+.month h6 {
+    margin-top: 10px;
+}
+.month img{
+    width: 300px;
+}
+.menu{
+    margin: 11px 15px;
+}
+.menu-row{
+    justify-content: center;
+}
+.navbar-light .navbar-toggler {
+   background-color: white !important;
+}
+
+.location {
+    background-image: url(./images/img-locations-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 522px;
+    display: flex;
+    align-items: center;
+}
+.locations {
+display: flex;
+justify-content: center;
+width: 100%;
+flex-direction: column;
+    align-items: center;
+}
+
+.loc-row{
+    justify-content: center;
+    width: 100%;
+}
+
+.loc-row .col-3{
+    text-align: center;
+    background-color: black;
+        margin: 0px 20px;
+}
+.locations h3 {
+    padding: 10px;
+}
+.locations h6{
+    padding: 10px;
+}
+.location h2 {
+    margin-bottom: 15px;
+}
+.tea-cozy{
+    text-align: center;
+}
+footer h6{
+    margin: 20px;
+}
+
+@media (max-width: 1399.98px) { 
+    .sm-display {
+        display: none;
+    }
+ }
+@media (max-width: 1199.98px) { 
+
+    .menu {
+        margin: 11px 50px;
+    }
+}
+@media (max-width: 991.98px) { 
+
+.our-mission {
+    height: 457px;
+}
+.month{
+    padding: 50px 0px;
+}
+.location h3 {
+    font-size: 19px;
+    padding: 0;
+    margin: ;
+}
+
+.location h2 {padding-bottom: 0;}
+
+
+
+.location {height: 335px;}
+footer {
+    margin: 0;
+}
+footer h6 {margin: 0;}
+
+.lg-display {
+    display: none;
+}
+.sm-display {display: flex;}
+}
+@media (max-width: 767.98px) { 
+    .first-section .container{
+            max-width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+    .handpick {
+        text-align: center;}
+        .third-section .container{
+            max-width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+
+ }
+
+ @media (max-width: 575.98px) { 
+     .our-mission {
+    height: 238px;
+}
+.handpick {
+    background-color: #0000000f;}
+  }
